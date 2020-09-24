@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\PROJECTS\TEST_DIODES\EWARM\settings\LeakTest.LeakTest.general.xcl" --backend -f "C:\PROJECTS\TEST_DIODES\EWARM\settings\LeakTest.LeakTest.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\settings\LeakTest.LeakTest.general.xcl" --backend -f "C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\settings\LeakTest.LeakTest.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\PROJECTS\TEST_DIODES\EWARM\settings\LeakTest.LeakTest.general.xcl" --debug_file=$debugfile --backend -f "C:\PROJECTS\TEST_DIODES\EWARM\settings\LeakTest.LeakTest.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\settings\LeakTest.LeakTest.general.xcl" --debug_file=$debugfile --backend -f "C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\settings\LeakTest.LeakTest.driver.xcl" 
 }

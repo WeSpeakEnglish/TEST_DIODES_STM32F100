@@ -1,25 +1,25 @@
-"C:\PROJECTS\TEST_DIODES\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c"
+"C:\PROJECTS\TEST_DIODES_STM32F100\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_cortex.pbi.dep
+C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_cortex.pbi.dep
 -o
 stm32f1xx_hal_cortex.pbi
 -I
-C:\PROJECTS\TEST_DIODES\Drivers\STM32F1xx_HAL_Driver\Src
+C:\PROJECTS\TEST_DIODES_STM32F100\Drivers\STM32F1xx_HAL_Driver\Src
 -I
-C:\PROJECTS\TEST_DIODES\EWARM/../Inc\
+C:\PROJECTS\TEST_DIODES_STM32F100\EWARM/../Inc\
 -I
-C:\PROJECTS\TEST_DIODES\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc\
+C:\PROJECTS\TEST_DIODES_STM32F100\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc\
 -I
-C:\PROJECTS\TEST_DIODES\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy\
+C:\PROJECTS\TEST_DIODES_STM32F100\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy\
 -I
-C:\PROJECTS\TEST_DIODES\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include\
+C:\PROJECTS\TEST_DIODES_STM32F100\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include\
 -I
-C:\PROJECTS\TEST_DIODES\EWARM/../Drivers/CMSIS/Include\
+C:\PROJECTS\TEST_DIODES_STM32F100\EWARM/../Drivers/CMSIS/Include\
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include\
 -I
@@ -29,15 +29,15 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
 -I
-C:\PROJECTS\TEST_DIODES\Inc
+C:\PROJECTS\TEST_DIODES_STM32F100\Inc
 -I
-C:\PROJECTS\TEST_DIODES\Drivers\STM32F1xx_HAL_Driver\Inc
+C:\PROJECTS\TEST_DIODES_STM32F100\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-C:\PROJECTS\TEST_DIODES\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
+C:\PROJECTS\TEST_DIODES_STM32F100\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
 -I
-C:\PROJECTS\TEST_DIODES\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+C:\PROJECTS\TEST_DIODES_STM32F100\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-C:\PROJECTS\TEST_DIODES\Drivers\CMSIS\Include
+C:\PROJECTS\TEST_DIODES_STM32F100\Drivers\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CMSIS\Core\Include
 -I

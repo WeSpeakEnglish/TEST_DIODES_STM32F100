@@ -1,48 +1,52 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.50.6.265/W32 for ARM                  24/Sep/2020  14:13:29
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  24/Sep/2020  14:27:55
 # Copyright 2007-2020 IAR Systems AB.
 #
-#    Output file  =  C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Exe\LeakTest.out
-#    Map file     =  C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\List\LeakTest.map
+#    Output file  =
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Exe\LeakTest.out
+#    Map file     =
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\List\LeakTest.map
 #    Command line =
-#        -f C:\Users\H249897\AppData\Local\Temp\EWADA5.tmp
-#        (C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\dma.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\gpio.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\main.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\MS5611.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\rtc.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\spi.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\startup_stm32f100xb.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_cortex.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_dma.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_flash.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_flash_ex.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_gpio.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_gpio_ex.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_msp.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_pwr.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_rcc.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_rcc_ex.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_spi.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_spi_ex.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_tim.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_tim_ex.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_hal_uart.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_it.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_ll_exti.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_ll_gpio.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_ll_rcc.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_ll_rtc.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\stm32f1xx_ll_utils.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\system_stm32f1xx.o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj\usart.o --redirect
-#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --no_out_extension -o
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Exe\LeakTest.out --map
-#        C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\List\LeakTest.map --config
-#        C:\PROJECTS\TEST_DIODES\EWARM/stm32f100xb_flash.icf --semihosting
-#        --entry __iar_program_start --vfe --text_out locale)
+#        -f C:\Users\H249897\AppData\Local\Temp\EWE900.tmp
+#        (C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\dma.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\gpio.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\main.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\MS5611.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\rtc.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\spi.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\startup_stm32f100xb.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_cortex.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_dma.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_flash.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_flash_ex.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_gpio.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_gpio_ex.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_msp.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_pwr.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_rcc.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_rcc_ex.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_spi.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_spi_ex.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_tim.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_tim_ex.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_hal_uart.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_it.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_ll_exti.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_ll_gpio.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_ll_rcc.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_ll_rtc.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\stm32f1xx_ll_utils.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\system_stm32f1xx.o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj\usart.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Exe\LeakTest.out
+#        --map
+#        C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\List\LeakTest.map
+#        --config C:\PROJECTS\TEST_DIODES_STM32F100\EWARM/stm32f100xb_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
 
@@ -83,7 +87,7 @@ initialize by copy { rw };
   .intvec            ro code   0x800'0000   0x120  startup_stm32f100xb.o [1]
                              - 0x800'0120   0x120
 
-"P1":                                      0x47d4
+"P1":                                      0x47f4
   .text              ro code   0x800'0120   0x868  stm32f1xx_hal_uart.o [1]
   .text              ro code   0x800'0988   0x130  usart.o [1]
   .text              ro code   0x800'0ab8   0x380  stm32f1xx_hal_dma.o [1]
@@ -128,35 +132,27 @@ initialize by copy { rw };
   .text              ro code   0x800'3e54    0x22  S32ToDbl.o [3]
   .text              ro code   0x800'3e78    0x2e  DblCmpGe.o [3]
   .text              ro code   0x800'3ea8   0x36c  iar_Exp64.o [3]
-  .rodata            const     0x800'4214    0x24  main.o [1]
-  .rodata            const     0x800'4238   0x420  pow64.o [3]
-  .text              ro code   0x800'4658    0x60  system_stm32f1xx.o [1]
-  .text              ro code   0x800'46b8    0x58  stm32f1xx_it.o [1]
-  .text              ro code   0x800'4710    0x18  stm32f1xx_hal.o [1]
-  .text              ro code   0x800'4728    0x28  data_init.o [4]
-  .rodata            const     0x800'4750    0x24  spi.o [1]
-  .rodata            const     0x800'4774    0x24  usart.o [1]
-  .iar.init_table    const     0x800'4798    0x24  - Linker created -
-  .text              ro code   0x800'47bc    0x1e  cmain.o [4]
-  .text              ro code   0x800'47da     0x4  low_level_init.o [2]
-  .text              ro code   0x800'47de     0x4  exit.o [2]
-  .text              ro code   0x800'47e4     0xa  cexit.o [4]
-  .text              ro code   0x800'47f0    0x14  exit.o [5]
-  .rodata            const     0x800'4804    0x10  stm32f1xx_hal_rcc.o [1]
-  .rodata            const     0x800'4814    0x10  stm32f1xx_hal_rcc.o [1]
-  .rodata            const     0x800'4824    0x10  system_stm32f1xx.o [1]
-  .text              ro code   0x800'4834    0x10  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'4844     0xc  cstartup_M.o [4]
-  Initializer bytes  const     0x800'4850     0xc  <for P2-1>
-  .rodata            const     0x800'485c     0x8  system_stm32f1xx.o [1]
-  .text              ro code   0x800'4864     0x4  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'4868     0x4  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'486c     0x4  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'4870     0x4  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'4874     0x4  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'4878     0x4  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'487c     0x4  startup_stm32f100xb.o [1]
-  .text              ro code   0x800'4880     0x4  startup_stm32f100xb.o [1]
+  .rodata            const     0x800'4214    0x2c  spi.o [1]
+  .rodata            const     0x800'4240   0x420  pow64.o [3]
+  .text              ro code   0x800'4660    0x60  system_stm32f1xx.o [1]
+  .text              ro code   0x800'46c0    0x58  stm32f1xx_it.o [1]
+  .text              ro code   0x800'4718    0x18  stm32f1xx_hal.o [1]
+  .rodata            const     0x800'4730    0x30  main.o [1]
+  .rodata            const     0x800'4760    0x30  usart.o [1]
+  .text              ro code   0x800'4790    0x28  data_init.o [4]
+  .iar.init_table    const     0x800'47b8    0x24  - Linker created -
+  .text              ro code   0x800'47dc    0x1e  cmain.o [4]
+  .text              ro code   0x800'47fa     0x4  low_level_init.o [2]
+  .text              ro code   0x800'47fe     0x4  exit.o [2]
+  .text              ro code   0x800'4804     0xa  cexit.o [4]
+  .text              ro code   0x800'4810    0x14  exit.o [5]
+  .rodata            const     0x800'4824    0x10  stm32f1xx_hal_rcc.o [1]
+  .rodata            const     0x800'4834    0x10  stm32f1xx_hal_rcc.o [1]
+  .rodata            const     0x800'4844    0x10  system_stm32f1xx.o [1]
+  .text              ro code   0x800'4854    0x10  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'4864     0xc  cstartup_M.o [4]
+  Initializer bytes  const     0x800'4870     0xc  <for P2-1>
+  .rodata            const     0x800'487c     0x8  system_stm32f1xx.o [1]
   .text              ro code   0x800'4884     0x4  startup_stm32f100xb.o [1]
   .text              ro code   0x800'4888     0x4  startup_stm32f100xb.o [1]
   .text              ro code   0x800'488c     0x4  startup_stm32f100xb.o [1]
@@ -185,9 +181,17 @@ initialize by copy { rw };
   .text              ro code   0x800'48e8     0x4  startup_stm32f100xb.o [1]
   .text              ro code   0x800'48ec     0x4  startup_stm32f100xb.o [1]
   .text              ro code   0x800'48f0     0x4  startup_stm32f100xb.o [1]
-  .rodata            const     0x800'48f4     0x0  zero_init3.o [4]
-  .rodata            const     0x800'48f4     0x0  copy_init3.o [4]
-                             - 0x800'48f4  0x47d4
+  .text              ro code   0x800'48f4     0x4  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'48f8     0x4  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'48fc     0x4  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'4900     0x4  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'4904     0x4  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'4908     0x4  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'490c     0x4  startup_stm32f100xb.o [1]
+  .text              ro code   0x800'4910     0x4  startup_stm32f100xb.o [1]
+  .rodata            const     0x800'4914     0x0  zero_init3.o [4]
+  .rodata            const     0x800'4914     0x0  copy_init3.o [4]
+                             - 0x800'4914  0x47f4
 
 "P2", part 1 of 3:                            0xc
   P2-1                        0x2000'0000     0x9  <Init block>
@@ -231,7 +235,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-   0x800'48f4   0x801'ffff  0x1'b70c
+   0x800'4914   0x801'ffff  0x1'b6ec
   0x2000'0668  0x2000'1fff    0x1998
 
 
@@ -247,7 +251,7 @@ Zero (__iar_zero_init3)
 
 Copy (__iar_copy_init3)
     1 source range, total size 0xc (133% of destination):
-           0x800'4850    0xc
+           0x800'4870    0xc
     1 destination range, total size 0x9:
           0x2000'0000    0x9
 
@@ -263,13 +267,13 @@ command line/config:
     -------------------------------------------------
     Total:
 
-C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj: [1]
+C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj: [1]
     MS5611.o                  1'248                36
     dma.o                        60
     gpio.o                      108
-    main.o                      710       36      184
+    main.o                      710       48      184
     rtc.o                       316
-    spi.o                       376       36      176
+    spi.o                       376       44      176
     startup_stm32f100xb.o       448
     stm32f1xx_hal.o             174        5        9
     stm32f1xx_hal_cortex.o      370
@@ -284,9 +288,9 @@ C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj: [1]
     stm32f1xx_it.o               88
     stm32f1xx_ll_rtc.o          482
     system_stm32f1xx.o           96       28        4
-    usart.o                     304       36      200
+    usart.o                     304       48      200
     -------------------------------------------------
-    Total:                   11'994      173      609
+    Total:                   11'994      205      609
 
 dl7M_tlf.a: [2]
     exit.o                        4
@@ -331,7 +335,7 @@ shb_l.a: [5]
     Gaps                         32                 4
     Linker created                        39    1'024
 -----------------------------------------------------
-    Grand Total:             17'408    1'268    1'637
+    Grand Total:             17'408    1'300    1'637
 
 
 *******************************************************************************
@@ -340,20 +344,20 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base    0x800'4798          --   Gb  - Linker created -
-.iar.init_table$$Limit   0x800'47bc          --   Gb  - Linker created -
-?main                    0x800'47bd         Code  Gb  cmain.o [4]
-AHBPrescTable            0x800'4824   0x10  Data  Gb  system_stm32f1xx.o [1]
-APBPrescTable            0x800'485c    0x8  Data  Gb  system_stm32f1xx.o [1]
-BusFault_Handler         0x800'46bf    0x2  Code  Gb  stm32f1xx_it.o [1]
+.iar.init_table$$Base    0x800'47b8          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'47dc          --   Gb  - Linker created -
+?main                    0x800'47dd         Code  Gb  cmain.o [4]
+AHBPrescTable            0x800'4844   0x10  Data  Gb  system_stm32f1xx.o [1]
+APBPrescTable            0x800'487c    0x8  Data  Gb  system_stm32f1xx.o [1]
+BusFault_Handler         0x800'46c7    0x2  Code  Gb  stm32f1xx_it.o [1]
 CSTACK$$Base            0x2000'0268          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'0668          --   Gb  - Linker created -
 DMA1_Channel4_IRQHandler
-                         0x800'46d7    0xa  Code  Gb  stm32f1xx_it.o [1]
+                         0x800'46df    0xa  Code  Gb  stm32f1xx_it.o [1]
 DMA1_Channel5_IRQHandler
-                         0x800'46e1    0xa  Code  Gb  stm32f1xx_it.o [1]
+                         0x800'46e9    0xa  Code  Gb  stm32f1xx_it.o [1]
 DMA_SetConfig            0x800'0e0d   0x2c  Code  Lc  stm32f1xx_hal_dma.o [1]
-DebugMon_Handler         0x800'46c5    0x2  Code  Gb  stm32f1xx_it.o [1]
+DebugMon_Handler         0x800'46cd    0x2  Code  Gb  stm32f1xx_it.o [1]
 HAL_DMA_Abort_IT         0x800'0bcb   0xb4  Code  Gb  stm32f1xx_hal_dma.o [1]
 HAL_DMA_IRQHandler       0x800'0c7f  0x16a  Code  Gb  stm32f1xx_hal_dma.o [1]
 HAL_DMA_Init             0x800'0ab9   0x7a  Code  Gb  stm32f1xx_hal_dma.o [1]
@@ -362,7 +366,7 @@ HAL_Delay                0x800'2cad   0x28  Code  Wk  stm32f1xx_hal.o [1]
 HAL_GPIO_Init            0x800'1759  0x226  Code  Gb  stm32f1xx_hal_gpio.o [1]
 HAL_GPIO_WritePin        0x800'197f   0x1a  Code  Gb  stm32f1xx_hal_gpio.o [1]
 HAL_GetTick              0x800'1b4d    0xc  Code  Wk  stm32f1xx_hal.o [1]
-HAL_IncTick              0x800'4711   0x18  Code  Wk  stm32f1xx_hal.o [1]
+HAL_IncTick              0x800'4719   0x18  Code  Wk  stm32f1xx_hal.o [1]
 HAL_Init                 0x800'1c2d   0x16  Code  Gb  stm32f1xx_hal.o [1]
 HAL_InitTick             0x800'1b59   0x4c  Code  Wk  stm32f1xx_hal.o [1]
 HAL_MspInit              0x800'29c1   0x88  Code  Gb  stm32f1xx_hal_msp.o [1]
@@ -394,7 +398,7 @@ HAL_UART_Init            0x800'0121   0x76  Code  Gb  stm32f1xx_hal_uart.o [1]
 HAL_UART_MspInit         0x800'09c1   0xd4  Code  Gb  usart.o [1]
 HAL_UART_Receive_DMA     0x800'022d   0xb6  Code  Gb  stm32f1xx_hal_uart.o [1]
 HAL_UART_Transmit_DMA    0x800'0197   0x96  Code  Gb  stm32f1xx_hal_uart.o [1]
-HardFault_Handler        0x800'46bb    0x2  Code  Gb  stm32f1xx_it.o [1]
+HardFault_Handler        0x800'46c3    0x2  Code  Gb  stm32f1xx_it.o [1]
 LL_APB1_GRP1_EnableClock
                          0x800'1ef1   0x16  Code  Lc  rtc.o [1]
 LL_PWR_EnableBkUpAccess
@@ -443,8 +447,8 @@ MX_RTC_Init              0x800'1f39   0x48  Code  Gb  rtc.o [1]
 MX_SPI1_Init             0x800'1ced   0x48  Code  Gb  spi.o [1]
 MX_SPI2_Init             0x800'1d35   0x4a  Code  Gb  spi.o [1]
 MX_USART1_UART_Init      0x800'0989   0x38  Code  Gb  usart.o [1]
-MemManage_Handler        0x800'46bd    0x2  Code  Gb  stm32f1xx_it.o [1]
-NMI_Handler              0x800'46b9    0x2  Code  Gb  stm32f1xx_it.o [1]
+MemManage_Handler        0x800'46c5    0x2  Code  Gb  stm32f1xx_it.o [1]
+NMI_Handler              0x800'46c1    0x2  Code  Gb  stm32f1xx_it.o [1]
 NVIC_EnableIRQ           0x800'1e6f   0x16  Code  Lc  rtc.o [1]
 NVIC_EnableIRQ           0x800'1a01   0x16  Code  Lc  stm32f1xx_hal_cortex.o [1]
 NVIC_EncodePriority      0x800'1eb1   0x40  Code  Lc  rtc.o [1]
@@ -457,22 +461,22 @@ NVIC_SetPriority         0x800'1e85   0x2c  Code  Lc  rtc.o [1]
 NVIC_SetPriority         0x800'1a17   0x2c  Code  Lc  stm32f1xx_hal_cortex.o [1]
 NVIC_SetPriorityGrouping
                          0x800'19d9   0x1e  Code  Lc  stm32f1xx_hal_cortex.o [1]
-PendSV_Handler           0x800'46c7    0x2  Code  Gb  stm32f1xx_it.o [1]
+PendSV_Handler           0x800'46cf    0x2  Code  Gb  stm32f1xx_it.o [1]
 RCC_Delay                0x800'13f7   0x26  Code  Lc  stm32f1xx_hal_rcc.o [1]
-RTC_IRQHandler           0x800'46d5    0x2  Code  Gb  stm32f1xx_it.o [1]
-Region$$Table$$Base      0x800'4798          --   Gb  - Linker created -
-Region$$Table$$Limit     0x800'47bc          --   Gb  - Linker created -
-SPI1_IRQHandler          0x800'46eb    0xa  Code  Gb  stm32f1xx_it.o [1]
+RTC_IRQHandler           0x800'46dd    0x2  Code  Gb  stm32f1xx_it.o [1]
+Region$$Table$$Base      0x800'47b8          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'47dc          --   Gb  - Linker created -
+SPI1_IRQHandler          0x800'46f3    0xa  Code  Gb  stm32f1xx_it.o [1]
 SPI_CheckFlag_BSY        0x800'325f   0x2a  Code  Lc  stm32f1xx_hal_spi.o [1]
 SPI_DMAAbortOnError      0x800'31a5   0x16  Code  Lc  stm32f1xx_hal_spi.o [1]
 SPI_WaitFlagStateUntilTimeout
                          0x800'31bd   0xa2  Code  Lc  stm32f1xx_hal_spi.o [1]
-SVC_Handler              0x800'46c3    0x2  Code  Gb  stm32f1xx_it.o [1]
+SVC_Handler              0x800'46cb    0x2  Code  Gb  stm32f1xx_it.o [1]
 SysTick_Config           0x800'1a83   0x30  Code  Lc  stm32f1xx_hal_cortex.o [1]
-SysTick_Handler          0x800'46c9    0xc  Code  Gb  stm32f1xx_it.o [1]
+SysTick_Handler          0x800'46d1    0xc  Code  Gb  stm32f1xx_it.o [1]
 SystemClock_Config       0x800'1657   0x9e  Code  Gb  main.o [1]
 SystemCoreClock         0x2000'0004    0x4  Data  Gb  system_stm32f1xx.o [1]
-SystemInit               0x800'4659   0x44  Code  Gb  system_stm32f1xx.o [1]
+SystemInit               0x800'4661   0x44  Code  Gb  system_stm32f1xx.o [1]
 UART_DMAAbortOnError     0x800'0555   0x16  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_DMAError            0x800'04c5   0x58  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_DMAReceiveCplt      0x800'0471   0x44  Code  Lc  stm32f1xx_hal_uart.o [1]
@@ -485,8 +489,8 @@ UART_EndTxTransfer       0x800'051d   0x14  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_Receive_IT          0x800'05fb   0xae  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_SetConfig           0x800'06a9  0x2d6  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_Transmit_IT         0x800'056d   0x6e  Code  Lc  stm32f1xx_hal_uart.o [1]
-USART1_IRQHandler        0x800'46f5    0xa  Code  Gb  stm32f1xx_it.o [1]
-UsageFault_Handler       0x800'46c1    0x2  Code  Gb  stm32f1xx_it.o [1]
+USART1_IRQHandler        0x800'46fd    0xa  Code  Gb  stm32f1xx_it.o [1]
+UsageFault_Handler       0x800'46c9    0x2  Code  Gb  stm32f1xx_it.o [1]
 _Error_Handler           0x800'1729    0x2  Code  Gb  main.o [1]
 __aeabi_cdcmpeq          0x800'3c59         Code  Gb  DblCmpEq.o [3]
 __aeabi_cdcmple          0x800'3ce9         Code  Gb  DblCmpLe.o [3]
@@ -500,12 +504,12 @@ __aeabi_i2d              0x800'3e55         Code  Gb  S32ToDbl.o [3]
 __aeabi_memcpy4          0x800'1ba5         Code  Gb  ABImemcpy.o [4]
 __aeabi_memcpy8          0x800'1ba5         Code  Gb  ABImemcpy.o [4]
 __aeabi_ui2d             0x800'39dd         Code  Gb  U32ToDbl.o [3]
-__cmain                  0x800'47bd         Code  Gb  cmain.o [4]
-__exit                   0x800'47f1   0x14  Code  Gb  exit.o [5]
+__cmain                  0x800'47dd         Code  Gb  cmain.o [4]
+__exit                   0x800'4811   0x14  Code  Gb  exit.o [5]
 __iar_Exp64              0x800'3ea9  0x318  Code  Gb  iar_Exp64.o [3]
 __iar_copy_init3         0x800'172b   0x2e  Code  Gb  copy_init3.o [4]
 __iar_dadd               0x800'3a09         Code  Gb  DblSub.o [3]
-__iar_data_init3         0x800'4729   0x28  Code  Gb  data_init.o [4]
+__iar_data_init3         0x800'4791   0x28  Code  Gb  data_init.o [4]
 __iar_dsub               0x800'3aed         Code  Gb  DblAdd.o [3]
 __iar_dsubStart          0x800'3aff         Code  Gb  DblAdd.o [3]
 __iar_frexp              0x800'3c85         Code  Gb  frexp.o [3]
@@ -516,17 +520,17 @@ __iar_pow64              0x800'3289  0x6cc  Code  Gb  pow64.o [3]
 __iar_pow_medium         0x800'3289  0x6cc  Code  Gb  pow64.o [3]
 __iar_pow_medium64       0x800'3289  0x6cc  Code  Gb  pow64.o [3]
 __iar_pow_mediuml        0x800'3289  0x6cc  Code  Gb  pow64.o [3]
-__iar_program_start      0x800'4845         Code  Gb  cstartup_M.o [4]
+__iar_program_start      0x800'4865         Code  Gb  cstartup_M.o [4]
 __iar_scalbln64          0x800'3d19         Code  Gb  ldexp.o [3]
 __iar_scalbn64           0x800'3d19         Code  Gb  ldexp.o [3]
 __iar_zero_init3         0x800'0e43   0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init         0x800'47db    0x4  Code  Gb  low_level_init.o [2]
+__low_level_init         0x800'47fb    0x4  Code  Gb  low_level_init.o [2]
 __vector_table           0x800'0000         Data  Gb  startup_stm32f100xb.o [1]
-_call_main               0x800'47c9         Code  Gb  cmain.o [4]
-_exit                    0x800'47e5         Code  Gb  cexit.o [4]
-_main                    0x800'47d7         Code  Gb  cmain.o [4]
+_call_main               0x800'47e9         Code  Gb  cmain.o [4]
+_exit                    0x800'4805         Code  Gb  cexit.o [4]
+_main                    0x800'47f7         Code  Gb  cmain.o [4]
 b                       0x2000'0264    0x1  Data  Gb  MS5611.o [1]
-exit                     0x800'47df    0x4  Code  Gb  exit.o [2]
+exit                     0x800'47ff    0x4  Code  Gb  exit.o [2]
 frexp                    0x800'3c79         Code  Gb  frexp.o [3]
 frexpl                   0x800'3c79         Code  Gb  frexp.o [3]
 hdma_usart1_rx          0x2000'00bc   0x44  Data  Gb  usart.o [1]
@@ -536,7 +540,7 @@ hspi2                   0x2000'0064   0x58  Data  Gb  spi.o [1]
 huart1                  0x2000'0144   0x40  Data  Gb  usart.o [1]
 ldexp                    0x800'3d19         Code  Gb  ldexp.o [3]
 ldexpl                   0x800'3d19         Code  Gb  ldexp.o [3]
-lnbias                   0x800'4238  0x420  Data  Lc  pow64.o [3]
+lnbias                   0x800'4240  0x420  Data  Lc  pow64.o [3]
 main                     0x800'1465  0x1f2  Code  Gb  main.o [1]
 main::C1                0x2000'0218   0x10  Data  Lc  main.o [1]
 main::C2                0x2000'0228   0x10  Data  Lc  main.o [1]
@@ -557,14 +561,14 @@ uwTickFreq              0x2000'0008    0x1  Data  Gb  stm32f1xx_hal.o [1]
 uwTickPrio              0x2000'0000    0x4  Data  Gb  stm32f1xx_hal.o [1]
 
 
-[1] = C:\PROJECTS\TEST_DIODES\EWARM\LeakTest\Obj
+[1] = C:\PROJECTS\TEST_DIODES_STM32F100\EWARM\LeakTest\Obj
 [2] = dl7M_tlf.a
 [3] = m7M_tl.a
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
   17'408 bytes of readonly  code memory
-   1'268 bytes of readonly  data memory
+   1'300 bytes of readonly  data memory
    1'637 bytes of readwrite data memory
 
 Errors: none
